@@ -19,9 +19,9 @@ jobs:
     deploy: 
         needs: docker
         runs-on: ubuntu-latest
-        # concurrency: 
-        #     cancel-in-progress: false
-        #     group: mayank 
+        concurrency: 
+            cancel-in-progress: false
+            group: mayank 
         steps: 
             - name: running containers
             #   timeout-minutes: 1
