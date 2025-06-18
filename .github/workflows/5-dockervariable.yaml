@@ -16,7 +16,7 @@ jobs:
 
             - run: echo docker login  --username=$DOCKER_USERNAME   --password=qwerty
 
-            - run: echo docker push  docker.io/mdhack0316/imagename
+            - run: echo docker push  docker.io/mdhack0316/$IMAGE_NAME
     
     deploy: 
         runs-on: ubuntu-latest
