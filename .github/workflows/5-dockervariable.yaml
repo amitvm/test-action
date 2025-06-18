@@ -22,4 +22,4 @@ jobs:
         runs-on: ubuntu-latest
         steps: 
             - name: running containers
-              run: echo docker run -itd -p 8080:80 docker.io/mdhack/imagename
+              run: echo docker run -itd -p 8080:80 docker.io/mdhack/$IMAGE_NAME
